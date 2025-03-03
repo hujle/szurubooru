@@ -7,6 +7,7 @@ const defaultSettings = {
         safe: true,
         sketchy: true,
         unsafe: false,
+        hidden: false,
     },
     upscaleSmallPosts: false,
     endlessScroll: false,

@@ -35,6 +35,7 @@ def _safety_transformer(value: str) -> str:
         "sketchy": model.Post.SAFETY_SKETCHY,
         "questionable": model.Post.SAFETY_SKETCHY,
         "unsafe": model.Post.SAFETY_UNSAFE,
+        "hidden": model.Post.SAFETY_HIDDEN,
     }
     return search_util.enum_transformer(available_values, value)
 

@@ -111,6 +111,11 @@
                         border-color: @background-color
                         &:not(.active)
                             background-color: alpha(@background-color, 0.3)
+                    &.safety-hidden
+                        background-color: $safety-hidden
+                        border-color: @background-color
+                        &:not(.active)
+                            background-color: alpha(@background-color, 0.3)
                     &[data-disabled]
                         background: rgba(200, 200, 200, 0.7)
 

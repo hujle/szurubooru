@@ -166,6 +166,16 @@ function escapeHtml(unsafe) {
         .replace(/'/g, "&apos;");
 }
 
+function escapeHtml(hidden) {
+    return hidden
+        .toString()
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&apos;");
+}
+
 function arraysDiffer(source1, source2, orderImportant) {
     source1 = [...source1];
     source2 = [...source2];

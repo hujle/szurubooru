@@ -82,6 +82,7 @@ SAFETY_MAP = {
     model.Post.SAFETY_SAFE: "safe",
     model.Post.SAFETY_SKETCHY: "sketchy",
     model.Post.SAFETY_UNSAFE: "unsafe",
+    model.Post.SAFETY_HIDDEN: "hidden",
 }
 
 TYPE_MAP = {

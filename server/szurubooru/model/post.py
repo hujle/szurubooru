@@ -189,6 +189,7 @@ class Post(Base):
     SAFETY_SAFE = "safe"
     SAFETY_SKETCHY = "sketchy"
     SAFETY_UNSAFE = "unsafe"
+    SAFETY_HIDDEN = "hidden"
 
     TYPE_IMAGE = "image"
     TYPE_ANIMATION = "animation"
