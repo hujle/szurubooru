@@ -26,12 +26,13 @@
                         selectedValue: ctx.post.safety,
                         class: 'safety-unsafe',
                         text: 'Unsafe'}) %>
-                    <%= ctx.makeRadio({
-                        name: 'safety',
-                        value: 'hidden',
-                        selectedValue: ctx.post.safety,
-                        class: 'safety-hidden',
-                        text: 'Hidden'}) %>
+                    %><% if (ctx.canViewHidden) { %><%
+                        <%= ctx.makeRadio({
+                            name: 'safety',
+                            value: 'hidden',
+                            selectedValue: ctx.post.safety,
+                            class: 'safety-hidden',
+                            text: 'Hidden'}) %> } %><%
                 </div>
             </section>
         <% } %>
