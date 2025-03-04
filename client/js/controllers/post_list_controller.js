@@ -42,6 +42,7 @@ class PostListController {
             hostNode: this._pageController.view.pageHeaderHolderNode,
             parameters: ctx.parameters,
             enableSafety: api.safetyEnabled(),
+            canViewHidden: api.hasPrivilege("posts:view:hidden"),
             canBulkEditTags: api.hasPrivilege("posts:bulk-edit:tags"),
             canBulkEditSafety: api.hasPrivilege("posts:bulk-edit:safety"),
             canBulkDelete: api.hasPrivilege("posts:bulk-edit:delete"),
@@ -156,6 +157,7 @@ class PostListController {
             pageRenderer: (pageCtx) => {
                 Object.assign(pageCtx, {
                     canViewPosts: api.hasPrivilege("posts:view"),
+                    canViewHidden: api.hasPrivilege("posts:view:hidden"),
                     canBulkEditTags: api.hasPrivilege("posts:bulk-edit:tags"),
                     canBulkEditSafety: api.hasPrivilege(
                         "posts:bulk-edit:safety"
