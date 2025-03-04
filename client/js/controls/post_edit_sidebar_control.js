@@ -31,6 +31,7 @@ class PostEditSidebarControl extends events.EventTarget {
                 enableSafety: api.safetyEnabled(),
                 hasClipboard: document.queryCommandSupported("copy"),
                 canEditPostSafety: api.hasPrivilege("posts:edit:safety"),
+                canViewHidden: api.hasPrivilege("posts:view:hidden"),
                 canEditPostSource: api.hasPrivilege("posts:edit:source"),
                 canEditPostTags: api.hasPrivilege("posts:edit:tags"),
                 canEditPostRelations: api.hasPrivilege("posts:edit:relations"),
