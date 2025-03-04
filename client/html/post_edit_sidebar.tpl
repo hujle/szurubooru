@@ -32,7 +32,7 @@
                             value: 'hidden',
                             selectedValue: ctx.post.safety,
                             class: 'safety-hidden',
-                            text: 'Hidden'}) %> } %><%
+                            text: 'Hidden'}) %> } %>
                 </div>
             </section>
         <% } %>
