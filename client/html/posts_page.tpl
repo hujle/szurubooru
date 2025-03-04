@@ -44,15 +44,13 @@
                         <% } %>
                         <% if (ctx.canBulkEditSafety && ctx.parameters && ctx.parameters.safety) { %>
                             <span class='safety-flipper'>
-                                <% for (let safety of ['safe', 'sketchy', 'unsafe']) { %>
+                                <% for (let safety of ['safe', 'sketchy', 'unsafe', 'hidden']) { %>
                                     <a href data-safety='<%- safety %>' class='safety-<%- safety %><%- post.safety === safety ? ' active' : '' %>'>
                                     </a>
                                 <% } %>
                                 <% if (ctx.canViewHidden) { %>
-                                    <% for (let safety of ['safe', 'sketchy', 'unsafe', 'hidden']) { %>
-                                        <a href data-safety='<%- safety %>' class='safety-<%- safety %><%- post.safety === safety ? ' active' : '' %>'>
-                                        </a>
-                                    <% } %>
+                                    <a href data-safety='hidden' class='safety-hidden<%- post.safety === 'hidden' ? ' active' : '' %>'>
+                                    </a>
                                 <% } %>
                             </span>
                         <% } %>
