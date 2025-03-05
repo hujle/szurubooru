@@ -5,7 +5,7 @@
 services:
 
   server:
-    image: szurubooru/server:latest
+    build: server
     depends_on:
       - sql
     environment:
@@ -25,11 +25,11 @@ services:
       - "${MOUNT_DATA}:/data"
       - "./server/config.yaml:/opt/app/config.yaml"
     ## Expose this port if you want embeds.
-    #ports:
-    #    - "${PORT_SERVER}:6666"
+    ports:
+          - "${PORT_SERVER}:6666"
 
   client:
-    image: szurubooru/client:latest
+    build: client
     depends_on:
       - server
     environment:
