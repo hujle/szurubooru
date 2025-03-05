@@ -25,8 +25,8 @@ services:
       - "${MOUNT_DATA}:/data"
       - "./server/config.yaml:/opt/app/config.yaml"
     ## Expose this port if you want embeds.
-    ports:
-      - "${PORT_SERVER}:6666"
+    # ports:
+    #   - "${PORT_SERVER}:6666"
 
   client:
     build: client
