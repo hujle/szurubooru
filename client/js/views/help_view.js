@@ -20,6 +20,9 @@ const subsectionTemplates = {
         tags: views.getTemplate("help-search-tags"),
         pools: views.getTemplate("help-search-pools"),
     },
+    guidelines: {
+        howtopost: views.getTemplate("help-guidelines-posts"),
+    }
 };
 
 class HelpView {
