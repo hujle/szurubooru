@@ -1,4 +1,4 @@
-<a href="https://twitter.com/KexDraws/status/1699616455082303949" alt="Click on this image to see it's source and creator."><img src="https://assets.ymbr.site/misc/logo.png"></a>
+<a href="https://twitter.com/KexDraws/status/1699616455082303949" alt="Click on this image to see it's source and creator."><img src="https://assets.ymbr.site/misc/logo.png" width="50vw"></a>
 
 <p class='section'><strong><%- ctx.name %></strong></p>
 
