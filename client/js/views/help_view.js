@@ -10,6 +10,7 @@ const sectionTemplates = {
     search: views.getTemplate("help-search"),
     comments: views.getTemplate("help-comments"),
     tos: views.getTemplate("help-tos"),
+    guidelines: views.getTemplate("help-guidelines"),
 };
 const subsectionTemplates = {
     search: {
