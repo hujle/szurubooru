@@ -63,7 +63,7 @@ def get_post(
     post_id = _get_post_id(match)
     post = _get_post(post_id)
     serialized = _serialize_post(ctx, post)
-    if serialized.safety == model.Post.SAFETY_HIDDEN:
+    if post.safety == model.Post.SAFETY_HIDDEN:
         auth.verify_privilege(ctx.user, "posts:view:hidden")
     embed = {
         "version": "1.0",
