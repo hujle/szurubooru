@@ -6,7 +6,6 @@
             --><li data-name='search'><a href='<%- ctx.formatClientLink('help', 'search') %>'>Search syntax</a></li><!--
             --><li data-name='comments'><a href='<%- ctx.formatClientLink('help', 'comments') %>'>Comments</a></li><!--
             --><li data-name='tos'><a href='<%- ctx.formatClientLink('help', 'tos') %>'>Terms of service</a></li><!--
-            --><li data-name='guidelines'><a href='<%- ctx.formatClientLink('help', 'guidelines') %>'>Guidelines</a></li><!--
         --></ul><!--
     --></nav>
 
