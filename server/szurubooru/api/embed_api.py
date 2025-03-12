@@ -64,7 +64,7 @@ def get_post(
     post = _get_post(post_id)
     serialized = _serialize_post(ctx, post)
     if post.safety == model.Post.SAFETY_HIDDEN:
-        auth.verify_privilege(ctx.user, "posts:view:hidden")
+        raise posts.PostNotFoundError
     embed = {
         "version": "1.0",
         "type": "photo",
