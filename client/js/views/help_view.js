@@ -21,7 +21,7 @@ const subsectionTemplates = {
         pools: views.getTemplate("help-search-pools"),
     },
     guidelines: {
-        howtopost: views.getTemplate("help-guidelines-posts"),
+        default: views.getTemplate("help-guidelines-post"),
     }
 };
 
