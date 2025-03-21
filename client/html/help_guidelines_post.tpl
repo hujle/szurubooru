@@ -12,7 +12,7 @@ SauceNAO, IQDB, etc.</p>
 
 <p>The upload rules (see below) go into detail on what is considered risky content.</p>
 
-<p class='section'><strong>READ THE <a href="https://yumeboo.ru/help/guidelines/upload_rules">UPLOAD RULES</a> BEFORE PROCEEDING!</strong></p>
+<p class='section'><strong>READ THE <a href="https://yumeboo.ru/help/upload_rules">UPLOAD RULES</a> BEFORE PROCEEDING!</strong></p>
 
 <p class='section'><strong>Uploading</strong></p>
 
