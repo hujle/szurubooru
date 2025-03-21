@@ -9,8 +9,10 @@ const sectionTemplates = {
     keyboard: views.getTemplate("help-keyboard"),
     search: views.getTemplate("help-search"),
     comments: views.getTemplate("help-comments"),
-    tos: views.getTemplate("help-tos"),
     guidelines: views.getTemplate("help-guidelines"),
+    upload_rules: views.getTemplate("help-upload-rules"),
+    tos: views.getTemplate("help-tos"),
+    dmca: views.getTemplate("help-dmca"),
 };
 const subsectionTemplates = {
     search: {
@@ -22,6 +24,9 @@ const subsectionTemplates = {
     },
     guidelines: {
         default: views.getTemplate("help-guidelines-post"),
+        tag: views.getTemplate("help-guidelines-tag"),
+        safety: views.getTemplate("help-guidelines-safety"),
+        comment: views.getTemplate("help-guidelines-comment"),
     }
 };
 
