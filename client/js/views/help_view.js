@@ -12,7 +12,7 @@ const sectionTemplates = {
     guidelines: views.getTemplate("help-guidelines"),
     upload_rules: views.getTemplate("help-upload-rules"),
     tos: views.getTemplate("help-tos"),
-    dmca: views.getTemplate("help-dmca"),
+    takedown: views.getTemplate("help-takedown"),
 };
 const subsectionTemplates = {
     search: {
