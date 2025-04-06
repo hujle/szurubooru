@@ -8,7 +8,7 @@
             --><li data-name='guidelines'><a href='<%- ctx.formatClientLink('help', 'guidelines') %>'>Guidelines</a></li><!--
             --><li data-name='upload_rules'><a href='<%- ctx.formatClientLink('help', 'upload_rules') %>'>Upload Rules</a></li><!--
             --><li data-name='tos'><a href='<%- ctx.formatClientLink('help', 'tos') %>'>Terms of service</a></li><!--
-            --><li data-name='dmca'><a href='<%- ctx.formatClientLink('help', 'dmca') %>'>DMCA</a></li><!--
+            --><li data-name='takedown'><a href='<%- ctx.formatClientLink('help', 'takedown') %>'>Takedown Request</a></li><!--
         --></ul><!--
     --></nav>
 
