@@ -22,8 +22,9 @@ Please submit your information in English.</p>
 <ol>
     <li>Your contact information. Include your username, links to social 
 media, and e-mail address.</li>
-    <li>Confirmation of ownership. Provide a screen recording of you logging in one 
-of your social media profiles. This is necessary to avoid third-party acting on 
+    <li>Confirmation of ownership. Create a post on any of your social media 
+about sending takedown request to <%- ctx.name %>, and attach the post link 
+to your takedown request. This is necessary to avoid third-party acting on 
 behalf of another person.</li>
     <li>A list of links to each post on <%- ctx.name %> you wish to have removed. 
 Screenshots or simply listing your artist tag, artist name or social media accounts 
