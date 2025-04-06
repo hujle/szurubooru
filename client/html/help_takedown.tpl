@@ -41,4 +41,4 @@ future works on <%- ctx.name %>.</li>
 <p>Upon receiving a valid request, we will take appropriate action, which may include 
 removing or restricting access to the content.</p>
 
-<p><a href='mailto:admin@yumeboo.ru'><strong>Submit Takedown Request</strong></a></p>
+<p class='section'><a href='mailto:admin@yumeboo.ru'><strong>Submit Takedown Request</strong></a></p>
