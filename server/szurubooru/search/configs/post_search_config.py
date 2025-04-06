@@ -226,6 +226,10 @@ class PostSearchConfig(BaseSearchConfig):
                 negated=True,
             )
         return query.order_by(model.Post.post_id.desc())
+    
+    @property
+    def can_list_hidden(self) -> bool:
+        return self.user and auth.has_privilege(self.user, "posts:list:hidden")
 
     @property
     def id_column(self) -> SaColumn:
