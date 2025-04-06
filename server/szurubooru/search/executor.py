@@ -93,9 +93,7 @@ class Executor:
             if token.name == "random":
                 disable_eager_loads = True
 
-        can_list_hidden = getattr(self.config, "can_list_hidden", False)
-
-        key = (id(self.config), hash(search_query), offset, limit, can_list_hidden)
+        key = (id(self.config), hash(search_query), offset, limit)
         if cache.has(key):
             return cache.get(key)
 
