@@ -56,9 +56,14 @@
 
         <section class='search'>
             Search on
-            <a href='http://iqdb.org/?url=<%- encodeURIComponent(ctx.post.fullContentUrl) %>'>IQDB</a> &middot;
-            <a href='https://danbooru.donmai.us/posts?tags=md5:<%- ctx.post.checksumMD5 %>'>Danbooru</a> &middot;
-            <a href='https://lens.google.com/uploadbyurl?url=<%- encodeURIComponent(ctx.post.fullContentUrl) %>'>Google Images</a>
+            <a href='https://lens.google.com/uploadbyurl?url=<%- encodeURIComponent(ctx.post.fullContentUrl) %>'>Google</a> &middot;
+            <a href='https://yandex.com/images/search?url=<%- encodeURIComponent(ctx.post.fullContentUrl) %>'>Yandex</a> &middot;
+            <a href='https://www.bing.com/images/search?q=imgurl:<%- encodeURIComponent(ctx.post.fullContentUrl) %>'>Bing</a> &middot;
+            <a href='https://lenso.ai/en/search-by-url?url=<%- encodeURIComponent(ctx.post.fullContentUrl) %>'>Lenso.ai</a> &middot;
+            <a href='https://www.tineye.com/search/?&url=<%- encodeURIComponent(ctx.post.fullContentUrl) %>'>Tineye</a> &middot;
+            <a href='https://saucenao.com/search.php?url=<%- encodeURIComponent(ctx.post.fullContentUrl) %>'>SauceNAO</a> &middot;
+            <a href='https://iqdb.org/?url=<%- encodeURIComponent(ctx.post.fullContentUrl) %>'>IQDB</a> &middot;
+            <a href='https://ascii2d.net/search/url/<%- encodeURIComponent(ctx.post.fullContentUrl) %>'>ASCII2D</a>
         </section>
 
         <section class='social'>
