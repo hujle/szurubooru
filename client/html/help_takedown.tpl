@@ -41,4 +41,9 @@ future works on <%- ctx.name %>.</li>
 <p>Upon receiving a valid request, we will take appropriate action, which may include 
 removing or restricting access to the content.</p>
 
+<p class='section'><strong>About collaboration artworks</strong></p>
+
+<p>Artworks created in direct collaboration with other artists may be included 
+in the takedown request. We will not remove posts of public canvases such as Magma.</p>
+
 <p class='section'><a href='mailto:admin@yumeboo.ru'><strong>Submit Takedown Request</strong></a></p>

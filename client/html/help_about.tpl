@@ -26,4 +26,4 @@ stay, unless some angry admin removes them.</p>
 
 <p>If you&rsquo;ve got any questions about Yumebooru, or you have a suggestion, you 
 can contact the admin either via <a href="mailto:admin@yumeboo.ru">e-mail</a> or 
-in our <a href="https://discord.gg/9q28JXGA3A">Discord server</a>.</p>
+in our <a href="https://discord.gg/Y2gkyh7CPf">Discord server</a>.</p>
